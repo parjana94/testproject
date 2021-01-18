@@ -1,0 +1,107 @@
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: 20px auto;
+}
+.head-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+}
+.nav-ul{
+    display: flex;
+}
+
+.nav-li{
+    margin-right: 40px;
+}
+.nav-a{
+    color: black;
+    font-family: 'ArchyEDT-Bold';
+    font-size: 18px;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+.search{
+    width: 15px;
+}
+.nav-a:hover{
+    color:darkgray;
+}
+.banner{
+    margin-top:40px;
+    max-width: 1200px;
+}
+.banner-img{
+    width: 100%;
+}
+li:last-child{
+    margin-right: 0px;
+}
+.news-head{
+    display: flex;
+    justify-content: center;
+}
+.pop-news{
+    position: relative;
+    top: 40px;
+    font-size: 35px;
+    font-family: 'ArchyEDT-Bold';
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.pop-news::before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 1px;
+    bottom: 0;
+    left: 38%;
+    border-bottom: 4px solid darkgray;
+}
+.l-news{
+    margin-top:80px;
+}
+.news-block{
+    width: calc(100% / 3 - 20px);
+    margin-right: 50px;
+}
+.news-img{
+    width: 100%;
+}
+.news-title{
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: 'ArchyEDT-Bold';
+}
+.news-text{
+    margin-top: 8px;
+    font-size: 15px;
+}
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+.more{
+    color: black;
+    font-family: 'ArchyEDT-Bold';
+    font-size: 17px;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+.more::after{
+    content: '\2192';
+    margin-left: 5px;
+}
+.l-news{
+    display: flex;
+}
+.margin{
+    margin-right: 0px;
+}
